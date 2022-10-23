@@ -86,7 +86,7 @@ color: var(--primary-text-color);
 .hero-title {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: calc(60 / 44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -180,7 +180,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: calc(24 / 14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -209,8 +209,6 @@ cursor: pointer;
     background-color: var(--pasive-button-color);
     color: var(--hero-title-color)
 }
-
-
 
  .portfolio-sub-title {
 font-size: 18px;
