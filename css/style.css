@@ -1,7 +1,7 @@
 /*--------------------MAIN PAGE-----------------*/
 :root {
     --main-background-color: #FFFFFF;
-    --secondary-background-color: #2F303A;
+    --secondary-background-color: hsl(235, 10%, 21%);
     --third-background-color: #F5F4FA; 
     --hero-title-color: #FFFFFF;
     --main-title-color: #212121;
@@ -37,6 +37,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
+
 
 /*Header*/
 .header {
@@ -191,4 +192,36 @@ color: rgba(255, 255, 255, 0.6);
 
  /*-----PORTFOLI----*/
 
- 
+.radio-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--third-background-color);
+color: var(--main-title-color);
+cursor: pointer;
+}
+
+.radio-btn:hover, .radio-btn:focus {
+    background-color: var(--pasive-button-color);
+    color: var(--hero-title-color)
+}
+
+
+
+ .portfolio-sub-title {
+font-size: 18px;
+line-height: calc(36 / 18);
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+ }
+
+ .portfolio-description {
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: var(--main-text-color); 
+ }
